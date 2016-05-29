@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F9C4B3A1CFA71B80041C4E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B391CFA71B80041C4E9 /* main.m */; };
+		1F9C4B3D1CFA71B80041C4E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B3C1CFA71B80041C4E9 /* AppDelegate.m */; };
+		1F9C4B401CFA71B80041C4E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B3F1CFA71B80041C4E9 /* ViewController.m */; };
+		1F9C4B431CFA71B80041C4E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C4B411CFA71B80041C4E9 /* Main.storyboard */; };
+		1F9C4B451CFA71B80041C4E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C4B441CFA71B80041C4E9 /* Assets.xcassets */; };
+		1F9C4B481CFA71B80041C4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9C4B461CFA71B80041C4E9 /* LaunchScreen.storyboard */; };
+		1F9C4B501CFA721C0041C4E9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9C4B4F1CFA721C0041C4E9 /* libz.tbd */; };
+		1F9C4B711CFA722E0041C4E9 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B541CFA722E0041C4E9 /* GCDWebServer.m */; };
+		1F9C4B721CFA722E0041C4E9 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B561CFA722E0041C4E9 /* GCDWebServerConnection.m */; };
+		1F9C4B731CFA722E0041C4E9 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B581CFA722E0041C4E9 /* GCDWebServerFunctions.m */; };
+		1F9C4B741CFA722E0041C4E9 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B5C1CFA722E0041C4E9 /* GCDWebServerRequest.m */; };
+		1F9C4B751CFA722E0041C4E9 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B5E1CFA722E0041C4E9 /* GCDWebServerResponse.m */; };
+		1F9C4B761CFA722E0041C4E9 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B611CFA722E0041C4E9 /* GCDWebServerDataRequest.m */; };
+		1F9C4B771CFA722E0041C4E9 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B631CFA722E0041C4E9 /* GCDWebServerFileRequest.m */; };
+		1F9C4B781CFA722E0041C4E9 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B651CFA722E0041C4E9 /* GCDWebServerMultiPartFormRequest.m */; };
+		1F9C4B791CFA722E0041C4E9 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B671CFA722E0041C4E9 /* GCDWebServerURLEncodedFormRequest.m */; };
+		1F9C4B7A1CFA722E0041C4E9 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B6A1CFA722E0041C4E9 /* GCDWebServerDataResponse.m */; };
+		1F9C4B7B1CFA722E0041C4E9 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B6C1CFA722E0041C4E9 /* GCDWebServerErrorResponse.m */; };
+		1F9C4B7C1CFA722E0041C4E9 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B6E1CFA722E0041C4E9 /* GCDWebServerFileResponse.m */; };
+		1F9C4B7D1CFA722E0041C4E9 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C4B701CFA722E0041C4E9 /* GCDWebServerStreamedResponse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F9C4B351CFA71B80041C4E9 /* iCamHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCamHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9C4B391CFA71B80041C4E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F9C4B3B1CFA71B80041C4E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F9C4B3C1CFA71B80041C4E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F9C4B3E1CFA71B80041C4E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F9C4B3F1CFA71B80041C4E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F9C4B421CFA71B80041C4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9C4B441CFA71B80041C4E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F9C4B471CFA71B80041C4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F9C4B491CFA71B80041C4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9C4B4F1CFA721C0041C4E9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1F9C4B531CFA722E0041C4E9 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		1F9C4B541CFA722E0041C4E9 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		1F9C4B551CFA722E0041C4E9 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		1F9C4B561CFA722E0041C4E9 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		1F9C4B571CFA722E0041C4E9 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		1F9C4B581CFA722E0041C4E9 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		1F9C4B591CFA722E0041C4E9 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		1F9C4B5A1CFA722E0041C4E9 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		1F9C4B5B1CFA722E0041C4E9 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		1F9C4B5C1CFA722E0041C4E9 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		1F9C4B5D1CFA722E0041C4E9 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		1F9C4B5E1CFA722E0041C4E9 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		1F9C4B601CFA722E0041C4E9 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		1F9C4B611CFA722E0041C4E9 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		1F9C4B621CFA722E0041C4E9 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		1F9C4B631CFA722E0041C4E9 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		1F9C4B641CFA722E0041C4E9 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		1F9C4B651CFA722E0041C4E9 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		1F9C4B661CFA722E0041C4E9 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		1F9C4B671CFA722E0041C4E9 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		1F9C4B691CFA722E0041C4E9 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		1F9C4B6A1CFA722E0041C4E9 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		1F9C4B6B1CFA722E0041C4E9 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		1F9C4B6C1CFA722E0041C4E9 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		1F9C4B6D1CFA722E0041C4E9 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		1F9C4B6E1CFA722E0041C4E9 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		1F9C4B6F1CFA722E0041C4E9 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		1F9C4B701CFA722E0041C4E9 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9C4B321CFA71B80041C4E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9C4B501CFA721C0041C4E9 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9C4B2C1CFA71B80041C4E9 = {
+			isa = PBXGroup;
+			children = (
+				1F9C4B4F1CFA721C0041C4E9 /* libz.tbd */,
+				1F9C4B371CFA71B80041C4E9 /* iCamHTTP */,
+				1F9C4B361CFA71B80041C4E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9C4B361CFA71B80041C4E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9C4B351CFA71B80041C4E9 /* iCamHTTP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9C4B371CFA71B80041C4E9 /* iCamHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				1F9C4B3B1CFA71B80041C4E9 /* AppDelegate.h */,
+				1F9C4B3C1CFA71B80041C4E9 /* AppDelegate.m */,
+				1F9C4B3E1CFA71B80041C4E9 /* ViewController.h */,
+				1F9C4B3F1CFA71B80041C4E9 /* ViewController.m */,
+				1F9C4B411CFA71B80041C4E9 /* Main.storyboard */,
+				1F9C4B441CFA71B80041C4E9 /* Assets.xcassets */,
+				1F9C4B461CFA71B80041C4E9 /* LaunchScreen.storyboard */,
+				1F9C4B491CFA71B80041C4E9 /* Info.plist */,
+				1F9C4B511CFA722E0041C4E9 /* GCDWebServer */,
+				1F9C4B381CFA71B80041C4E9 /* Supporting Files */,
+			);
+			path = iCamHTTP;
+			sourceTree = "<group>";
+		};
+		1F9C4B381CFA71B80041C4E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F9C4B391CFA71B80041C4E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F9C4B511CFA722E0041C4E9 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				1F9C4B521CFA722E0041C4E9 /* Core */,
+				1F9C4B5F1CFA722E0041C4E9 /* Requests */,
+				1F9C4B681CFA722E0041C4E9 /* Responses */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		1F9C4B521CFA722E0041C4E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1F9C4B531CFA722E0041C4E9 /* GCDWebServer.h */,
+				1F9C4B541CFA722E0041C4E9 /* GCDWebServer.m */,
+				1F9C4B551CFA722E0041C4E9 /* GCDWebServerConnection.h */,
+				1F9C4B561CFA722E0041C4E9 /* GCDWebServerConnection.m */,
+				1F9C4B571CFA722E0041C4E9 /* GCDWebServerFunctions.h */,
+				1F9C4B581CFA722E0041C4E9 /* GCDWebServerFunctions.m */,
+				1F9C4B591CFA722E0041C4E9 /* GCDWebServerHTTPStatusCodes.h */,
+				1F9C4B5A1CFA722E0041C4E9 /* GCDWebServerPrivate.h */,
+				1F9C4B5B1CFA722E0041C4E9 /* GCDWebServerRequest.h */,
+				1F9C4B5C1CFA722E0041C4E9 /* GCDWebServerRequest.m */,
+				1F9C4B5D1CFA722E0041C4E9 /* GCDWebServerResponse.h */,
+				1F9C4B5E1CFA722E0041C4E9 /* GCDWebServerResponse.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1F9C4B5F1CFA722E0041C4E9 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9C4B601CFA722E0041C4E9 /* GCDWebServerDataRequest.h */,
+				1F9C4B611CFA722E0041C4E9 /* GCDWebServerDataRequest.m */,
+				1F9C4B621CFA722E0041C4E9 /* GCDWebServerFileRequest.h */,
+				1F9C4B631CFA722E0041C4E9 /* GCDWebServerFileRequest.m */,
+				1F9C4B641CFA722E0041C4E9 /* GCDWebServerMultiPartFormRequest.h */,
+				1F9C4B651CFA722E0041C4E9 /* GCDWebServerMultiPartFormRequest.m */,
+				1F9C4B661CFA722E0041C4E9 /* GCDWebServerURLEncodedFormRequest.h */,
+				1F9C4B671CFA722E0041C4E9 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		1F9C4B681CFA722E0041C4E9 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				1F9C4B691CFA722E0041C4E9 /* GCDWebServerDataResponse.h */,
+				1F9C4B6A1CFA722E0041C4E9 /* GCDWebServerDataResponse.m */,
+				1F9C4B6B1CFA722E0041C4E9 /* GCDWebServerErrorResponse.h */,
+				1F9C4B6C1CFA722E0041C4E9 /* GCDWebServerErrorResponse.m */,
+				1F9C4B6D1CFA722E0041C4E9 /* GCDWebServerFileResponse.h */,
+				1F9C4B6E1CFA722E0041C4E9 /* GCDWebServerFileResponse.m */,
+				1F9C4B6F1CFA722E0041C4E9 /* GCDWebServerStreamedResponse.h */,
+				1F9C4B701CFA722E0041C4E9 /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9C4B341CFA71B80041C4E9 /* iCamHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9C4B4C1CFA71B80041C4E9 /* Build configuration list for PBXNativeTarget "iCamHTTP" */;
+			buildPhases = (
+				1F9C4B311CFA71B80041C4E9 /* Sources */,
+				1F9C4B321CFA71B80041C4E9 /* Frameworks */,
+				1F9C4B331CFA71B80041C4E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCamHTTP;
+			productName = iCamHTTP;
+			productReference = 1F9C4B351CFA71B80041C4E9 /* iCamHTTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9C4B2D1CFA71B80041C4E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jeffrey Crouse";
+				TargetAttributes = {
+					1F9C4B341CFA71B80041C4E9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F9C4B301CFA71B80041C4E9 /* Build configuration list for PBXProject "iCamHTTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9C4B2C1CFA71B80041C4E9;
+			productRefGroup = 1F9C4B361CFA71B80041C4E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9C4B341CFA71B80041C4E9 /* iCamHTTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9C4B331CFA71B80041C4E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9C4B481CFA71B80041C4E9 /* LaunchScreen.storyboard in Resources */,
+				1F9C4B451CFA71B80041C4E9 /* Assets.xcassets in Resources */,
+				1F9C4B431CFA71B80041C4E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9C4B311CFA71B80041C4E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9C4B7D1CFA722E0041C4E9 /* GCDWebServerStreamedResponse.m in Sources */,
+				1F9C4B781CFA722E0041C4E9 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				1F9C4B7A1CFA722E0041C4E9 /* GCDWebServerDataResponse.m in Sources */,
+				1F9C4B7B1CFA722E0041C4E9 /* GCDWebServerErrorResponse.m in Sources */,
+				1F9C4B711CFA722E0041C4E9 /* GCDWebServer.m in Sources */,
+				1F9C4B7C1CFA722E0041C4E9 /* GCDWebServerFileResponse.m in Sources */,
+				1F9C4B401CFA71B80041C4E9 /* ViewController.m in Sources */,
+				1F9C4B731CFA722E0041C4E9 /* GCDWebServerFunctions.m in Sources */,
+				1F9C4B751CFA722E0041C4E9 /* GCDWebServerResponse.m in Sources */,
+				1F9C4B721CFA722E0041C4E9 /* GCDWebServerConnection.m in Sources */,
+				1F9C4B3D1CFA71B80041C4E9 /* AppDelegate.m in Sources */,
+				1F9C4B791CFA722E0041C4E9 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				1F9C4B771CFA722E0041C4E9 /* GCDWebServerFileRequest.m in Sources */,
+				1F9C4B741CFA722E0041C4E9 /* GCDWebServerRequest.m in Sources */,
+				1F9C4B3A1CFA71B80041C4E9 /* main.m in Sources */,
+				1F9C4B761CFA722E0041C4E9 /* GCDWebServerDataRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F9C4B411CFA71B80041C4E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9C4B421CFA71B80041C4E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9C4B461CFA71B80041C4E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9C4B471CFA71B80041C4E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F9C4B4A1CFA71B80041C4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F9C4B4B1CFA71B80041C4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9C4B4D1CFA71B80041C4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCamHTTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = seethroughlab.iCamHTTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F9C4B4E1CFA71B80041C4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCamHTTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = seethroughlab.iCamHTTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9C4B301CFA71B80041C4E9 /* Build configuration list for PBXProject "iCamHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9C4B4A1CFA71B80041C4E9 /* Debug */,
+				1F9C4B4B1CFA71B80041C4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9C4B4C1CFA71B80041C4E9 /* Build configuration list for PBXNativeTarget "iCamHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9C4B4D1CFA71B80041C4E9 /* Debug */,
+				1F9C4B4E1CFA71B80041C4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9C4B2D1CFA71B80041C4E9 /* Project object */;
+}
