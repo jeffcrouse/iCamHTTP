@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					1F9C4B341CFA71B80041C4E9 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VDXAUN978X;
 					};
 				};
 			};
@@ -381,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VDXAUN978X;
 				INFOPLIST_FILE = iCamHTTP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seethroughlab.iCamHTTP;
@@ -392,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VDXAUN978X;
 				INFOPLIST_FILE = iCamHTTP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seethroughlab.iCamHTTP;
